@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    android:orientation="vertical">
+    <!--菜单发起群聊按钮-->
+    <Button
+        android:id="@+id/menu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="#333333"
+        android:drawableLeft="@drawable/ic_action_group"
+        android:drawablePadding="10dip"
+        android:paddingLeft="20dip"
+        android:paddingRight="58dp"
+        android:text="@string/text_group"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        />
+
+    <View
+
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#FCFCFC"
+       />
+    <!--菜单添加好友按钮-->
+    <Button
+        android:id="@+id/bt_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="#333333"
+        android:drawableLeft="@drawable/ic_action_add"
+        android:drawablePadding="10dip"
+        android:paddingLeft="20dip"
+        android:paddingRight="58dp"
+        android:text="@string/text_add"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        />
+
+    <View
+
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#FCFCFC"
+        />
+    <!--菜单扫一扫按钮-->
+    <Button
+        android:id="@+id/bt_sewwp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="#333333"
+        android:drawableLeft="@drawable/ic_action_sweep"
+        android:drawablePadding="10dip"
+        android:paddingLeft="20dip"
+        android:paddingRight="76dp"
+        android:text="@string/text_sweep"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        />
+
+    <View
+
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#FCFCFC"
+        />
+    <!--菜单收付款按钮-->
+    <Button
+        android:id="@+id/bt_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="#333333"
+        android:drawableLeft="@drawable/ic_action_card"
+        android:drawablePadding="10dip"
+        android:paddingLeft="20dip"
+        android:paddingRight="76dp"
+        android:text="@string/text_collect"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        />
+
+    <View
+
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#FCFCFC"
+        />
+    <!--菜单帮助与反馈按钮-->
+    <Button
+        android:id="@+id/bt_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="#333333"
+        android:drawableLeft="@drawable/ic_action_help"
+        android:drawablePadding="10dip"
+        android:paddingLeft="20dip"
+        android:paddingRight="40dp"
+        android:text="@string/text_help"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        />
+
+</LinearLayout>
